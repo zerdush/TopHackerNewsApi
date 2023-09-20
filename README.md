@@ -1,6 +1,6 @@
 # Top Hacker News Api
 ## How to run
-Under the root directory, run the following command:
+Under the TopHackerNewApi directory, run the following command:
 
 ```dotnet run```
 

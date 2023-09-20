@@ -28,7 +28,7 @@ public class CachedHackerRankClient : IHackerRankClient
 
     public Story GetStory(int id)
     {
-        if (_memoryCache.TryGetValue(id, out Story? story))
+        if (_memoryCache.TryGetValue(id, out Story? story) && story != null)
         {
             return story;
         }
