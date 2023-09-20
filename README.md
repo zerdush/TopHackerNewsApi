@@ -8,7 +8,7 @@ API will be ready on port 5053
 
 You can then run a curl command like this:
 
-```curl -i 'http://localhost:5033/TopStories'```
+```curl -i 'http://localhost:5033/TopStories?topN=5'```
 
 Alternatively you can run the application via Visual Studio which will give you a swagger UI to test the API.
 
